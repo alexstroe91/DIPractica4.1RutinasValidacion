@@ -22,8 +22,67 @@ Partial Class frmNumeros
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtNumero = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lblNumero = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(16, 15)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(336, 18)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Introduzca un numero decimal y pulse enter"
+        '
+        'txtNumero
+        '
+        Me.txtNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumero.Location = New System.Drawing.Point(69, 48)
+        Me.txtNumero.Name = "txtNumero"
+        Me.txtNumero.Size = New System.Drawing.Size(216, 24)
+        Me.txtNumero.TabIndex = 1
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(16, 163)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(118, 18)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "El numero es: "
+        '
+        'lblNumero
+        '
+        Me.lblNumero.AutoSize = True
+        Me.lblNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNumero.Location = New System.Drawing.Point(154, 163)
+        Me.lblNumero.Name = "lblNumero"
+        Me.lblNumero.Size = New System.Drawing.Size(0, 18)
+        Me.lblNumero.TabIndex = 3
+        '
+        'frmNumeros
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(371, 215)
+        Me.Controls.Add(Me.lblNumero)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.txtNumero)
+        Me.Controls.Add(Me.Label1)
+        Me.Name = "frmNumeros"
         Me.Text = "frmNumeros"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
+
+    Friend WithEvents Label1 As Label
+    Friend WithEvents txtNumero As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents lblNumero As Label
 End Class

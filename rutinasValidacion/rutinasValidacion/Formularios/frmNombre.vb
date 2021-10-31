@@ -1,6 +1,6 @@
 ﻿Public Class frmNombre
 
-    Dim logica As New metodos
+    Dim logica As New metodosNombre
 
     Private Sub txtNombre_KeyDown(sender As Object, e As KeyEventArgs) Handles txtNombre.KeyDown
         logica.pulsarEnter(Me, e)

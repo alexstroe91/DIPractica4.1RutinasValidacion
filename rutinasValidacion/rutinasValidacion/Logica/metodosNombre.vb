@@ -1,4 +1,4 @@
-﻿Public Class metodos
+﻿Public Class metodosNombre
     Public Function algoEscrito(frm As frmNombre) As Boolean
         'compruebo si el text box esta vacio o nos
         If frm.txtNombre.Text = "" Then
