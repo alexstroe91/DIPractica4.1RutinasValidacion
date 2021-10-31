@@ -2,9 +2,12 @@
 
     Dim logica As New metodos
 
+    Private Sub txtNombre_KeyDown(sender As Object, e As KeyEventArgs) Handles txtNombre.KeyDown
+        logica.pulsarEnter(Me, e)
+    End Sub
 
     Private Sub txtNombre_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtNombre.KeyPress
-        'depuro el nombre
+        'depuro el TextBox txtNombre con los metodos comentados en la clase metodos
         If Not logica.algoEscrito(Me) Then
             logica.esEspacio(Me, e)
         End If
@@ -14,5 +17,7 @@
         End If
 
     End Sub
+
+
 
 End Class
