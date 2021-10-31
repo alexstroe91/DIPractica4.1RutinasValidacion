@@ -9,7 +9,7 @@
     Private Sub txtNombre_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtNombre.KeyPress
         'depuro el TextBox txtNombre con los metodos comentados en la clase metodos
         If Not logica.algoEscrito(Me) Then
-            logica.esEspacio(Me, e)
+            logica.primerCaracter(Me, e)
         End If
 
         If logica.algoEscrito(Me) Then

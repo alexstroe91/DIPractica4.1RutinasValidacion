@@ -8,7 +8,7 @@
         End If
     End Function
 
-    Public Sub esEspacio(frm As frmNombre, e As KeyPressEventArgs)
+    Public Sub primerCaracter(frm As frmNombre, e As KeyPressEventArgs)
         'prohibe la escritura de cualquier caracter que no sea una letra
         If Char.IsWhiteSpace(e.KeyChar) Or Char.IsNumber(e.KeyChar) Or Char.IsSymbol(e.KeyChar) Or Char.IsPunctuation(e.KeyChar) Or Char.IsSeparator(e.KeyChar) Then
             e.Handled = True
