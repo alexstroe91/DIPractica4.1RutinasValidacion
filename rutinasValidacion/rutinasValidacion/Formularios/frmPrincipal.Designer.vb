@@ -29,7 +29,7 @@ Partial Class frmPrincipal
         '
         'btnNombre
         '
-        Me.btnNombre.Location = New System.Drawing.Point(25, 16)
+        Me.btnNombre.Location = New System.Drawing.Point(39, 12)
         Me.btnNombre.Name = "btnNombre"
         Me.btnNombre.Size = New System.Drawing.Size(143, 38)
         Me.btnNombre.TabIndex = 0
@@ -38,7 +38,7 @@ Partial Class frmPrincipal
         '
         'btnNumero
         '
-        Me.btnNumero.Location = New System.Drawing.Point(25, 60)
+        Me.btnNumero.Location = New System.Drawing.Point(39, 56)
         Me.btnNumero.Name = "btnNumero"
         Me.btnNumero.Size = New System.Drawing.Size(143, 38)
         Me.btnNumero.TabIndex = 1
@@ -47,7 +47,7 @@ Partial Class frmPrincipal
         '
         'btnNif
         '
-        Me.btnNif.Location = New System.Drawing.Point(25, 104)
+        Me.btnNif.Location = New System.Drawing.Point(39, 100)
         Me.btnNif.Name = "btnNif"
         Me.btnNif.Size = New System.Drawing.Size(143, 38)
         Me.btnNif.TabIndex = 2
@@ -58,7 +58,7 @@ Partial Class frmPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(192, 160)
+        Me.ClientSize = New System.Drawing.Size(218, 147)
         Me.Controls.Add(Me.btnNif)
         Me.Controls.Add(Me.btnNumero)
         Me.Controls.Add(Me.btnNombre)

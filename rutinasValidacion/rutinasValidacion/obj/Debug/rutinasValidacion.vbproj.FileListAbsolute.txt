@@ -1,2 +1,13 @@
 C:\Users\alexs\AppData\Local\Temporary Projects\rutinasValidacion\bin\Debug\rutinasValidacion.exe.config
 E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\bin\Debug\rutinasValidacion.exe.config
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\bin\Debug\rutinasValidacion.exe
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\bin\Debug\rutinasValidacion.pdb
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\bin\Debug\rutinasValidacion.xml
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.vbprojResolveAssemblyReference.cache
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.frmNombre.resources
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.frmPrincipal.resources
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.Resources.resources
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.vbproj.GenerateResource.Cache
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.exe
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.xml
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.pdb
