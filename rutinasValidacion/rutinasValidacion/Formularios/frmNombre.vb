@@ -7,15 +7,13 @@
     End Sub
 
     Private Sub txtNombre_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtNombre.KeyPress
-        'depuro el TextBox txtNombre con los metodos comentados en la clase metodos
+        'compruebo si hay algo escrito o no y ejecuto los metodos siguientes
+        '(ya comentados en la clase metodosNombre)
         If Not logica.algoEscrito(Me) Then
             logica.primerCaracter(Me, e)
-        End If
-
-        If logica.algoEscrito(Me) Then
+        Else
             logica.soloUnEspacio(Me, e)
         End If
-
     End Sub
 
 
