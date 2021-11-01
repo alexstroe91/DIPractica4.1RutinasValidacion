@@ -62,7 +62,7 @@ Partial Class frmNumeros
         '
         Me.lblNumero.AutoSize = True
         Me.lblNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNumero.Location = New System.Drawing.Point(169, 106)
+        Me.lblNumero.Location = New System.Drawing.Point(154, 106)
         Me.lblNumero.Name = "lblNumero"
         Me.lblNumero.Size = New System.Drawing.Size(0, 18)
         Me.lblNumero.TabIndex = 3

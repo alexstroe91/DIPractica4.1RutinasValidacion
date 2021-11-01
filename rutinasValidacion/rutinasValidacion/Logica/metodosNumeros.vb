@@ -25,7 +25,7 @@
     Public Sub pulsarIntro(frm As frmNumeros, e As KeyEventArgs)
         'al pulsar intro fomatea el texto que hay en el txtNumero con 2 decimales utilizando el metodo de abajo
         If e.KeyCode = 13 Then
-            frm.lblNumero.Text = FormatNumber(frm.txtNumero.Text, 2)
+            frm.lblNumero.Text = FormatNumber(frm.txtNumero.Text, 2) & " €"
         End If
     End Sub
 
