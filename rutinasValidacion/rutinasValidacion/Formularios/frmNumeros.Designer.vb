@@ -40,7 +40,9 @@ Partial Class frmNumeros
         '
         'txtNumero
         '
+        Me.txtNumero.BackColor = System.Drawing.SystemColors.MenuHighlight
         Me.txtNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNumero.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.txtNumero.Location = New System.Drawing.Point(69, 48)
         Me.txtNumero.Name = "txtNumero"
         Me.txtNumero.Size = New System.Drawing.Size(216, 24)
@@ -50,7 +52,7 @@ Partial Class frmNumeros
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(16, 163)
+        Me.Label2.Location = New System.Drawing.Point(21, 106)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(118, 18)
         Me.Label2.TabIndex = 2
@@ -60,7 +62,7 @@ Partial Class frmNumeros
         '
         Me.lblNumero.AutoSize = True
         Me.lblNumero.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNumero.Location = New System.Drawing.Point(154, 163)
+        Me.lblNumero.Location = New System.Drawing.Point(169, 106)
         Me.lblNumero.Name = "lblNumero"
         Me.lblNumero.Size = New System.Drawing.Size(0, 18)
         Me.lblNumero.TabIndex = 3
@@ -69,11 +71,13 @@ Partial Class frmNumeros
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(371, 215)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(372, 157)
         Me.Controls.Add(Me.lblNumero)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtNumero)
         Me.Controls.Add(Me.Label1)
+        Me.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Name = "frmNumeros"
         Me.Text = "frmNumeros"
         Me.ResumeLayout(False)

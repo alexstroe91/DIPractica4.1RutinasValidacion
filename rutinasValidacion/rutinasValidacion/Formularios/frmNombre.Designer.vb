@@ -40,6 +40,7 @@ Partial Class frmNombre
         '
         'txtNombre
         '
+        Me.txtNombre.BackColor = System.Drawing.Color.Gold
         Me.txtNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNombre.Location = New System.Drawing.Point(101, 54)
         Me.txtNombre.Name = "txtNombre"
@@ -69,11 +70,13 @@ Partial Class frmNombre
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Maroon
         Me.ClientSize = New System.Drawing.Size(444, 156)
         Me.Controls.Add(Me.lblNombre)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtNombre)
         Me.Controls.Add(Me.Label1)
+        Me.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Name = "frmNombre"
         Me.Text = "Validacion Nombre"
         Me.ResumeLayout(False)

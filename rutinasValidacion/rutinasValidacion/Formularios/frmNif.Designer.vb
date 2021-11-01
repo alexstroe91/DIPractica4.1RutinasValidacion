@@ -32,7 +32,7 @@ Partial Class frmNif
         '
         Me.lblNif.AutoSize = True
         Me.lblNif.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNif.Location = New System.Drawing.Point(155, 135)
+        Me.lblNif.Location = New System.Drawing.Point(154, 91)
         Me.lblNif.Name = "lblNif"
         Me.lblNif.Size = New System.Drawing.Size(0, 18)
         Me.lblNif.TabIndex = 7
@@ -41,7 +41,7 @@ Partial Class frmNif
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(12, 135)
+        Me.Label2.Location = New System.Drawing.Point(42, 91)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(87, 18)
         Me.Label2.TabIndex = 6
@@ -70,11 +70,13 @@ Partial Class frmNif
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(368, 186)
+        Me.BackColor = System.Drawing.Color.Teal
+        Me.ClientSize = New System.Drawing.Size(369, 133)
         Me.Controls.Add(Me.lblNif)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtNif)
         Me.Controls.Add(Me.Label1)
+        Me.ForeColor = System.Drawing.SystemColors.Control
         Me.Name = "frmNif"
         Me.Text = "frmNif"
         Me.ResumeLayout(False)

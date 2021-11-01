@@ -29,36 +29,46 @@ Partial Class frmPrincipal
         '
         'btnNombre
         '
-        Me.btnNombre.Location = New System.Drawing.Point(39, 12)
+        Me.btnNombre.BackColor = System.Drawing.Color.Thistle
+        Me.btnNombre.Font = New System.Drawing.Font("Montserrat", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNombre.ForeColor = System.Drawing.Color.Maroon
+        Me.btnNombre.Location = New System.Drawing.Point(18, 12)
         Me.btnNombre.Name = "btnNombre"
-        Me.btnNombre.Size = New System.Drawing.Size(143, 38)
+        Me.btnNombre.Size = New System.Drawing.Size(219, 40)
         Me.btnNombre.TabIndex = 0
         Me.btnNombre.Text = "NOMBRE COMPUESTO"
-        Me.btnNombre.UseVisualStyleBackColor = True
+        Me.btnNombre.UseVisualStyleBackColor = False
         '
         'btnNumero
         '
-        Me.btnNumero.Location = New System.Drawing.Point(39, 56)
+        Me.btnNumero.BackColor = System.Drawing.Color.Thistle
+        Me.btnNumero.Font = New System.Drawing.Font("Montserrat", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNumero.ForeColor = System.Drawing.Color.Maroon
+        Me.btnNumero.Location = New System.Drawing.Point(18, 67)
         Me.btnNumero.Name = "btnNumero"
-        Me.btnNumero.Size = New System.Drawing.Size(143, 38)
+        Me.btnNumero.Size = New System.Drawing.Size(219, 40)
         Me.btnNumero.TabIndex = 1
         Me.btnNumero.Text = "NUMERO DECIMAL"
-        Me.btnNumero.UseVisualStyleBackColor = True
+        Me.btnNumero.UseVisualStyleBackColor = False
         '
         'btnNif
         '
-        Me.btnNif.Location = New System.Drawing.Point(39, 100)
+        Me.btnNif.BackColor = System.Drawing.Color.Thistle
+        Me.btnNif.Font = New System.Drawing.Font("Montserrat", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNif.ForeColor = System.Drawing.Color.Maroon
+        Me.btnNif.Location = New System.Drawing.Point(18, 122)
         Me.btnNif.Name = "btnNif"
-        Me.btnNif.Size = New System.Drawing.Size(143, 38)
+        Me.btnNif.Size = New System.Drawing.Size(219, 40)
         Me.btnNif.TabIndex = 2
         Me.btnNif.Text = "NIF"
-        Me.btnNif.UseVisualStyleBackColor = True
+        Me.btnNif.UseVisualStyleBackColor = False
         '
         'frmPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(218, 147)
+        Me.BackColor = System.Drawing.Color.Purple
+        Me.ClientSize = New System.Drawing.Size(249, 174)
         Me.Controls.Add(Me.btnNif)
         Me.Controls.Add(Me.btnNumero)
         Me.Controls.Add(Me.btnNombre)
