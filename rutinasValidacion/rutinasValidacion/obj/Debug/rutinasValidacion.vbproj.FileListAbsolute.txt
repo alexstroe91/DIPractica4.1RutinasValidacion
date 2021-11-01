@@ -12,3 +12,4 @@ E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasV
 E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.xml
 E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.pdb
 E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.frmNumeros.resources
+E:\DAM2A\Desarrollo de interfaces\Tema 4\RepoLocal4.1\rutinasValidacion\rutinasValidacion\obj\Debug\rutinasValidacion.frmNif.resources
