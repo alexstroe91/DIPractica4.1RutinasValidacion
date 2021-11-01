@@ -78,7 +78,7 @@ Partial Class frmNif
         Me.Controls.Add(Me.Label1)
         Me.ForeColor = System.Drawing.SystemColors.Control
         Me.Name = "frmNif"
-        Me.Text = "frmNif"
+        Me.Text = "Validacion Nif"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

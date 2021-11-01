@@ -79,7 +79,7 @@ Partial Class frmNumeros
         Me.Controls.Add(Me.Label1)
         Me.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Name = "frmNumeros"
-        Me.Text = "frmNumeros"
+        Me.Text = "Validacion Numero"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
